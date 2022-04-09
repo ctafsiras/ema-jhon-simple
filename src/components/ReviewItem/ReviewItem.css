@@ -1,0 +1,31 @@
+.review-item{
+    border: 1px solid tomato;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 21px;
+    width: 571px;
+    display: flex;
+    align-items: center;
+}
+.review-item img{
+    width: 91px;
+
+}
+.item-details p{
+    margin: 0;
+}
+.item-detail-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-detail-container button{
+    background-color: rgb(250, 178, 165);
+    color: tomato;
+    cursor: pointer;
+    border: 0;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50%;
+}
